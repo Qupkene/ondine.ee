@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ondine.ee - Hooldus</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 40px;
+            max-width: 600px;
+        }
+        
+        .logo {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+        
+        .logo span {
+            color: #4ecdc4;
+        }
+        
+        .icon {
+            width: 120px;
+            height: 120px;
+            background: rgba(78, 205, 196, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 40px;
+        }
+        
+        .icon svg {
+            width: 60px;
+            height: 60px;
+            stroke: #4ecdc4;
+        }
+        
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.7;
+            margin-bottom: 40px;
+        }
+        
+        .contact {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 40px;
+        }
+        
+        .contact h3 {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .contact a {
+            color: #4ecdc4;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 2px;
+            margin: 30px 0;
+            overflow: hidden;
+        }
+        
+        .progress-bar-fill {
+            width: 60%;
+            height: 100%;
+            background: linear-gradient(90deg, #4ecdc4, #44a3a0);
+            border-radius: 2px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+        
+        .footer {
+            margin-top: 60px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">ondine<span>.ee</span></div>
+        
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+            </svg>
+        </div>
+        
+        <h1>Lehekülg on hoolduses</h1>
+        
+        <p>Teostame plaanilist hooldust, et pakkuda teile veelgi paremat teenust. Oleme varsti tagasi.</p>
+        
+        <div class="progress-bar">
+            <div class="progress-bar-fill"></div>
+        </div>
+        
+        <div class="contact">
+            <h3>Küsimuste korral võtke meiega ühendust</h3>
+            <a href="mailto:info@ondine.ee">info@ondine.ee</a>
+        </div>
+        
+        <div class="footer">
+            © 2026 Ondine.ee Kõik õigused kaitstud.
+        </div>
+    </div>
+</body>
+</html>
